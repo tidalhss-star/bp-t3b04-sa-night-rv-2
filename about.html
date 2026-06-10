@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="상암 유흥 정보 총정리. 상암 유흥주점, 클럽, 술집 이용 전 알아야 할 필수 정보. 전화 010-6279-0862">
+    <meta name="keywords" content="상암 유흥, 상암 유흥 정보, 상암 술집 이용팁, 상암 클럽 정보, 상암 주점, 상암 밤문화, 상암 유흥주점, 상암 가볼만한 곳, 상암 핫플">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-acid-yellow">
+    <title>상암 유흥 정보 - 니가 알아야 할 진짜 정보</title>
+    <link rel="canonical" href="https://t3b04-sa-night-rv-2.vercel.app/info">
+    <meta property="og:title" content="상암 유흥 정보 - 존나 쓸모있는 정보">
+    <meta property="og:description" content="상암 유흥 정보 총정리. 가짜 광고 없음, 진짜 정보만. 전화 010-6279-0862">
+    <meta property="og:url" content="https://t3b04-sa-night-rv-2.vercel.app/info">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ko_KR">
+    <style>
+        /* RESET & BASE */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; font-size: 16px; }
+        body {
+            background: #1a1a1a;
+            color: #e0e0e0;
+            font-family: 'Courier New', Courier, monospace;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        a { color: #f0e68c; text-decoration: underline; font-weight: bold; }
+        a:hover { color: #ffd700; background: #333; }
+        ul { list-style: none; padding: 0; }
+        img { max-width: 100%; height: auto; display: block; }
+
+        /* BRUTALIST BASE */
+        h1, h2, h3, h4 { font-weight: 900; text-transform: uppercase; letter-spacing: 2px; color: #f0e68c; }
+        h1 { font-size: 3.5rem; line-height: 1; margin-bottom: 1rem; text-shadow: 4px 4px 0 #000; }
+        h2 { font-size: 2.5rem; border-left: 8px solid #f0e68c; padding-left: 1rem; margin: 2rem 0 1rem; }
+        h3 { font-size: 1.8rem; margin: 1.5rem 0 0.5rem; }
+        p { margin-bottom: 1rem; font-size: 1.1rem; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* LAYOUT */
+        .full-bleed { width: 100vw; margin-left: calc(-50vw + 50%); background: #222; padding: 2rem 0; border-top: 4px solid #f0e68c; border-bottom: 4px solid #f0e68c; }
+        .skew-box { transform: skew(-5deg); background: #2a2a2a; padding: 1.5rem; border: 3px solid #f0e68c; margin: 2rem 0; }
+        .skew-box:hover { transform: skew(0deg); background: #333; border-color: #ffd700; }
+        .border-acid { border: 4px dashed #f0e68c; padding: 1.5rem; }
+
+        /* NAVIGATION */
+        nav { background: #111; padding: 1rem 0; border-bottom: 4px solid #f0e68c; position: sticky; top: 0; z-index: 100; }
+        nav .container { display: flex; justify-content: space-between; align-items: center; }
+        nav ul { display: flex; gap: 2rem; }
+        nav a { color: #f0e68c; text-transform: uppercase; font-size: 1.2rem; padding: 0.25rem 0.5rem; border: 2px solid transparent; }
+        nav a:hover { border-color: #f0e68c; background: #222; }
+        .hamburger-menu { display: none; cursor: pointer; font-size: 2rem; color: #f0e68c; }
+        .tel-link { background: #f0e68c; color: #111; padding: 0.3rem 1rem; font-weight: bold; border-radius: 0; text-decoration: none; }
+        .tel-link:hover { background: #ffd700; color: #000; }
+
+        /* CARD & GRID */
+        .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin: 2rem 0; }
+        .card { background: #2a2a2a; border: 3px solid #f0e68c; padding: 1.5rem; transform: rotate(-0.5deg); transition: all 0.2s; }
+        .card:hover { transform: rotate(0deg) scale(1.02); border-color: #ffd700; }
+        .card h3 { margin-top: 0; }
+        .card .price { font-size: 2rem; color: #f0e68c; font-weight: bold; }
+
+        /* FAQ */
+        .faq-item { border-bottom: 2px solid #333; padding: 1rem 0; }
+        .faq-item summary { font-weight: bold; font-size: 1.2rem; cursor: pointer; color: #f0e68c; }
+        .faq-item details[open] summary { color: #ffd700; }
+        .faq-item p { margin: 0.5rem 0 0 1rem; }
+
+        /* FOOTER */
+        footer { background: #111; border-top: 4px solid #f0e68c; padding: 2rem 0; text-align: center; margin-top: 3rem; }
+        footer a { color: #f0e68c; }
+
+        /* TEL FLOATING */
+        .tel-float { position: fixed; bottom: 2rem; right: 2rem; background: #f0e68c; color: #111; padding: 1rem 2rem; font-weight: bold; font-size: 1.5rem; border: 3px solid #111; z-index: 999; text-decoration: none; box-shadow: 6px 6px 0 #000; }
+        .tel-float:hover { background: #ffd700; transform: translate(-2px, -2px); box-shadow: 8px 8px 0 #000; }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5rem; }
+            h2 { font-size: 1.8rem; }
+            nav .container { flex-wrap: wrap; }
+            nav ul { display: none; flex-direction: column; width: 100%; padding: 1rem 0; gap: 1rem; }
+            nav ul.open { display: flex; }
+            .hamburger-menu { display: block; }
+            .tel-link { margin-left: auto; }
+            .card-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <!-- 네비게이션 -->
+    <nav>
+        <div class="container">
+            <div class="hamburger-menu" onclick="document.querySelector('nav ul').classList.toggle('open')">☰</div>
+            <ul>
+                <li><a href="/">홈</a></li>
+                <li><a href="/reviews">후기</a></li>
+                <li><a href="/info">정보</a></li>
+                <li><a href="/locations">지도</a></li>
+                <li><a href="/contact">문의</a></li>
+            </ul>
+            <a href="tel:010-6279-0862" class="tel-link">010-6279-0862</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- 히어로 -->
+        <section class="full-bleed" style="border-top: none;">
+            <div class="container">
+                <h1>🔥 상암 유흥 정보<br>니가 알아야 할 진짜</h1>
+                <p style="font-size: 1.3rem; font-weight: bold;">거르지 말고, 제대로 알고 가야 제맛. 상암 밤문화 완전 정복 가이드. 광고 같은 거 없다. 니가 직접 확인한 것만 믿어라.</p>
+                <a href="tel:010-6279-0862" class="tel-float" style="position: static; display: inline-block; margin-top: 1rem;">전화 직통: 010-6279-0862</a>
+            </div>
+        </section>
+
+        <div class="container">
+            <!-- 개요 -->
+            <section>
+                <h2>💡 상암 유흥, 왜 뜨는가?</h2>
+                <p>상암동은 디지털미디어시티, 월드컵경기장, 복합쇼핑몰이 몰려 있는 지역. 낮에는 IT 허브, 밤에는 상암 유흥이 핫하다. 근데 인터넷에 떠도는 정보는 반은 가짜고 반은 광고. 여기 있는 건 진짜 후기 기반으로 추린 정보다.</p>
+                <p>전화 한 통이면 니가 찾던 모든 정보가 바로 연결된다. <a href="tel:010-6279-0862">010-6279-0862</a> — 거짓말 안 하는 번호다.</p>
+            </section>
+
+            <!-- 카드 그리드: 주요 정보 -->
+            <section>
+                <h2>📌 꼭 알아야 할 3가지</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <h3>⏰ 영업시간</h3>
+                        <p>상암 유흥주점 대부분은 <strong>오후 8시 ~ 새벽 4시</strong>까지. 일부 클럽은 금/토 새벽 6시까지. 주말에는 미리 전화해서 자리 확인 필수. <a href="tel:010-6279-0862">전화로 물어봐</a></p>
+                    </div>
+                    <div class="card">
+                        <h3>💰 가격대</h3>
+                        <p class="price">₩50,000 ~ ₩200,000</p>
+                        <p>1차 주점 평균 5만 원대. 클럽 입장료 2~3만. 하이엔드 유흥주점은 15~20만. 바가지 씌우는 곳은 전화로 거르면 된다. <strong>010-6279-0862</strong>로 물어보면 진짜 가격 알려준다.</p>
+                    </div>
+                    <div class="card">
+                        <h3>📍 핫스팟</h3>
+                        <p>DMC역, 상암월드컵경기장 인근, 누리꿈스퀘어 주변. 골목골목 숨은 주점 많음. 초행길은 전화 안내 받고 가는 게 정신 건강에 좋음. <a href="tel:010-6279-0862">지금 전화</a></p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 상세 정보 (스큐 박스) -->
+            <section>
+                <h2>🧠 상암 유흥 완전 분석</h2>
+                <div class="skew-box">
+                    <h3>🥃 유흥주점 VS 클럽</h3>
+                    <p><strong>유흥주점:</strong> 룸 형태, 노래방+술. 2차로 가기 좋음. 여성 동행 있으면 더 재밌음. 가격은 보통 인당 10만 전후.</p>
+                    <p><strong>클럽:</strong> DJ, 댄스, 자유로운 분위기. 입장료는 저렴한데 안주/술값이 별도. 금요일은 여성 할인 많음.</p>
+                    <p><strong>술집/호프:</strong> 가볍게 시작하기 좋음. 안주 퀄리티가 생명. 상암은 분식 느낌의 술집도 개성 있어.</p>
+                </div>
+
+                <div class="skew-box">
+                    <h3>🚫 거르는 게 답인 곳 특징</h3>
+                    <p>1. <strong>가격표가 없음</strong> — 100% 바가지. <br>
+                    2. <strong>웹사이트에 후기 조작</strong> — 실제 후기랑 다른 느낌. <br>
+                    3. <strong>포장이 너무 화려함</strong> — 알바생들이 문 앞에서 강제 유인. <br>
+                    의심 들면 그냥 <a href="tel:010-6279-0862">010-6279-0862</a>로 전화해서 확인하자. 걍 물어보면 다 알려줌.</p>
+                </div>
+            </section>
+
+            <!-- FAQ -->
+            <section>
+                <h2>❓ 자주 묻는 질문 (FAQ)</h2>
+                <div class="faq-item">
+                    <details>
+                        <summary>Q: 상암에서 처음 가는데 추천 좀.</summary>
+                        <p>A: 첫 방문이면 <strong>DMC역 근처 포차나 이자카야</strong>부터 시작해. 분위기 부담 없고 가격도 착함. 이후 2차로 유흥주점 가는 루트 추천. 자세한 건 전화 010-6279-0862로 물어보면 맞춤 추천 해준다.</p>
+                    </details>
+                </div>
+                <div class="faq-item">
+                    <details>
+                        <summary>Q: 상암 유흥주점 비용 얼마나 들어?</summary>
+                        <p>A: 보통 인당 <strong>10만 원 ~ 20만 원</strong> 생각하면 됨. 양주+안주+여성 동행 포함. 단, 업소마다 차이 있고 바가지 조심. 미리 전화로 가격 확인하고 가는 게 안전. <a href="tel:010-6279-0862">전화로 물어봐</a></p>
+                    </details>
+                </div>
+                <div class="faq-item">
+                    <details>
+                        <summary>Q: 여성 혼자 가도 돼?</summary>
+                        <p>A: 요즘 클럽이나 펍은 여성 혼자도 안전하게 즐길 수 있는 곳 많음. 단, 유흥주점은 대부분 단체나 남성 손님 위주. 여성 혼자라면 상암 피자맥주 같은 가성비 술집 추천. 안전이 걱정되면 010-6279-0862로 상담 가능.</p>
+                    </details>
+                </div>
+                <div class="faq-item">
+                    <details>
+                        <summary>Q: 주차는 어디에?</summary>
+                        <p>A: DMC역 공영주차장 (시간당 1,600원) 이용 or 월드컵경기장 주차장. 유흥주점 자체 주차장 있는 곳도 많으니 전화 확인 필수. <strong>음주운전 절대 하지
+</body>
+</html>
